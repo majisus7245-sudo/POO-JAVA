@@ -36,7 +36,7 @@ Este repositorio reúne todo el trabajo realizado durante el curso de **Programa
 | Carpeta | Contenido |
 |---|---|
 | `ejercicios/` | Programas desarrollados en clase |
-| `tareas/` | Proyectos entregados; cada uno incluye una carpeta `referencia/` con el enunciado (`.docx`) y el código base proporcionado por el maestro |
+| `tareas/` | Proyectos entregados; cada uno incluye una carpeta `referencia/` con un `README.md` que contiene el enunciado y el código base proporcionado por el maestro |
 | `examen/` | Examen parcial de la unidad (incluye las anotaciones de revisión del maestro) |
 
 ---
@@ -74,7 +74,7 @@ Repaso de la sintaxis de Java y creación de la clase utilitaria **`Rutinas`**, 
 ### Tareas
 | Proyecto | Descripción |
 |---|---|
-| [Métodos de cadena](Unidad0_Diagnostico/tareas/metodos_de_cadena) | Implementar `SinBlancos`, `Mayusculas`, `Minusculas` y `Comparar` **sin** usar `trim`, `toUpperCase` ni `compareTo` |
+| [Métodos de cadena](Unidad0_Diagnostico/tareas/metodos_de_cadena) | Implementar `SinBlancos`, `Mayusculas`, `Minusculas` y `Comparar` **sin** usar `trim`, `toUpperCase` ni `compareTo`. [📄 Enunciado](Unidad0_Diagnostico/tareas/metodos_de_cadena/referencia/README.md) |
 
 ---
 
@@ -114,7 +114,7 @@ Clases que se construyen a partir de otras clases y visibilidad entre objetos.
 ### Tareas
 | Proyecto | Descripción |
 |---|---|
-| [Rocola con Caja](ComposicionYAgregacion/tareas/rocola_caja) | Rocola de 200 discos (20 filas × columnas A‑J) que delega el cobro y el cambio a un objeto `Caja` con denominaciones de 200 a 1 peso |
+| [Rocola con Caja](ComposicionYAgregacion/tareas/rocola_caja) | Rocola de 200 discos (20 filas × columnas A‑J) que delega el cobro y el cambio a un objeto `Caja` con denominaciones de 200 a 1 peso. [📄 Enunciado](ComposicionYAgregacion/tareas/rocola_caja/referencia/README.md) |
 
 ---
 
@@ -128,12 +128,12 @@ Superclases, subclases, `protected`, sobrescritura de métodos, `super` e interf
 | [Clase base](HerenciaYPolimorfismo/ejercicios/clase_base) | Ejemplo introductorio `Superclase` → `Subclase` |
 | [Calculadora](HerenciaYPolimorfismo/ejercicios/calculadora) | `CalculadoraBasica` → `CalculadoraIntermedia` (sobrecarga y nuevas operaciones) |
 | [Torniquete especial](HerenciaYPolimorfismo/ejercicios/torniquete_especial) | `Torniquete` → `TorniqueteEspecial`, que permite el acceso por nombre |
-| [Aviones](HerenciaYPolimorfismo/ejercicios/aviones) | Enunciado: jerarquía de aviones de carga y de pasajeros‑carga con balanceo de peso |
+| [Aviones](HerenciaYPolimorfismo/ejercicios/aviones) | `Avion_Carga` → `Avion_Pasaje_Carga`: carga de cajas alternando lados con balanceo de peso, y abordaje de pasajeros desde el asiento central. [📄 Enunciado](HerenciaYPolimorfismo/ejercicios/aviones/referencia/README.md) |
 
 ### Tareas
 | Proyecto | Descripción |
 |---|---|
-| [Herencia en USB](HerenciaYPolimorfismo/tareas/herencia_usb) | `Usb` → `UsbOrdenada` (ordena por extensión y nombre) → `UsbRepetidos` (permite duplicados como `archivo(001).java`) |
+| [Herencia en USB](HerenciaYPolimorfismo/tareas/herencia_usb) | `Usb` → `UsbOrdenada` (ordena por extensión y nombre) → `UsbRepetidos` (permite duplicados como `archivo(001).java`). [📄 Enunciado](HerenciaYPolimorfismo/tareas/herencia_usb/referencia/README.md) |
 
 ### Examen
 | Examen | Descripción |
@@ -171,9 +171,9 @@ Persistencia de datos con distintas organizaciones de archivo.
 | Proyecto | Descripción |
 |---|---|
 | [Frecuencia de nombres](FlujosYArchivos/tareas/frecuencia_nombres) | Leer un archivo secuencial y generar otro con la frecuencia de cada nombre |
-| [Ventas CSV](FlujosYArchivos/tareas/ventas_csv) | Agregar a `ventas.cvs` el importe de cada venta y el porcentaje que representa del total |
-| [Encadenamiento de folios](FlujosYArchivos/tareas/encadenamiento_folios) | Actualizar los campos `priMovto` y `siguiente` para encadenar los movimientos de cada folio en archivos directos |
-| [Ventas 2023](FlujosYArchivos/tareas/ventas_2023) | Implementar `VentasInterface` para consultar unidades vendidas por rango de fechas y productos en `Ventas2023.dat` |
+| [Ventas CSV](FlujosYArchivos/tareas/ventas_csv) | Agregar a `ventas.cvs` el importe de cada venta y el porcentaje que representa del total. [📄 Enunciado](FlujosYArchivos/tareas/ventas_csv/referencia/README.md) |
+| [Encadenamiento de folios](FlujosYArchivos/tareas/encadenamiento_folios) | Actualizar los campos `priMovto` y `siguiente` para encadenar los movimientos de cada folio en archivos directos. [📄 Enunciado](FlujosYArchivos/tareas/encadenamiento_folios/referencia/README.md) |
+| [Ventas 2023](FlujosYArchivos/tareas/ventas_2023) | Implementar `VentasInterface` para consultar unidades vendidas por rango de fechas y productos en `Ventas2023.dat`. [📄 Enunciado](FlujosYArchivos/tareas/ventas_2023/referencia/README.md) |
 
 ### Examen
 | Examen | Descripción |
