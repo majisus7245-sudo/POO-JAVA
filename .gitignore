@@ -1,0 +1,22 @@
+# Libros de consulta (material con derechos de autor, solo uso local)
+Libros/
+
+# Archivos compilados
+*.class
+out/
+bin/
+build/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
